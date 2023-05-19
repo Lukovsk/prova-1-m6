@@ -1,5 +1,7 @@
 # prova-1-m6
 
+Não faço ideia do por que, mas a tartaruga fica ignorando o próximo ponto depois de trocar pra Pilha. Infelizmente acabou o tempo, mas se puder me explicar depois o porque disso estar acontecendo eu agradeço :(.
+
 ## Enunciado
 Desenvolva um código em Python capaz de interagir com o nó do turtlesim de modo a executar a seguinte trajetória (representada por coordenadas x e y em termos relativos à tartaruga): 
 
