@@ -89,10 +89,11 @@ class TurtleController(Node):
         print(" "*8, "ANTIGOALS", " "*8)
         print(self.antigoals)
         
+        self.antigoals.appendleft(Pose(x=-self.goals[0].x, y=-self.goals[0].y))
+        
         self.setpoint.x = self.pose.x + self.goals[0].x 
         self.setpoint.y = self.pose.y + self.goals[0].y
         
-        self.antigoals.appendleft(Pose(x=-self.goals[0].x, y=-self.goals[0].y))
         self.goals.popleft()
         
         print("Goals: ", len(self.goals))
